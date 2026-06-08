@@ -1,4 +1,4 @@
-const BASE_URL = 'http://127.0.0.1:8000'
+const BASE_URL = 'https://mindcheck-app-production.up.railway.app'
 
 export async function signUp(name: string, email: string, password: string) {
   const res = await fetch(`${BASE_URL}/signup`, {
